@@ -1,0 +1,20 @@
+{
+  "name": "pusherpoll",
+  "version": "1.0.0",
+  "description": "Real time poll app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "supervisor app.js"
+  },
+  "author": "Redi Guleksi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13",
+    "pusher": "^4.0.2"
+  }
+}
